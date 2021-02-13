@@ -1,0 +1,38 @@
+html, body{
+    margin:0;
+}
+
+#welcome-section{
+    height: 100vh;
+    background:lightslategray;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+#nav-bar{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color:teal;
+    margin:0;
+}
+.nav-bar{
+    margin:0;
+}
+
+#title{
+    margin:0;
+    padding-top: 10%;
+}
+@media (max-width:1000px){
+    #nav-bar{
+        height: 100vh;
+        width: 100px;
+        float: left;
+    }
+    #title{
+        padding-left: 100px;
+    }
+    
+}
